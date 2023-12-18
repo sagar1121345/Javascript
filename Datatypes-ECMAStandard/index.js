@@ -24,6 +24,12 @@ console.log('Number    type is ',typeof 23)
 console.log('String    type is ',typeof "")
 console.log('Array     type is',typeof [])
 console.log('Object    type is ',typeof {})
+let id = Symbol(2323)
+let anotherId = Symbol(233)
+console.log(id === anotherId);
+
+
+
 
 
 
